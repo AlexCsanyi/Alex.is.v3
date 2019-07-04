@@ -311,7 +311,10 @@ header {
     header {
       padding: 2em 0; } }
   header .colorlib-navbar-brand {
-    float: left; }
+    float: left;
+    display: flex;
+    flex-direction: row;
+  }
     header .colorlib-navbar-brand .colorlib-logo {
       font-size: 24px;
       text-transform: uppercase;
@@ -326,6 +329,19 @@ header {
       header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-brand .colorlib-logo:focus {
         outline: none;
         text-decoration: none; }
+
+.mySocial {
+  padding-left: 20px;
+}
+
+.mySocial i{
+  color: #F9CE00;
+  transition: color 0.2s ease-in-out;
+}
+
+.mySocial i:hover{
+  color: #000;
+}
 
 #colorlib-services,
 #colorlib-contact,
