@@ -351,24 +351,26 @@ header {
   letter-spacing: 0.2rem;
   left: -15rem;
   transform: rotate(-90deg) translateY(50%);
+  font-size: 0.9vw;
 }
+
 .ellipse-container {
   border-radius: 50%;
   position: relative;
-  width: 50rem;
-  height: 50rem;
+  width: 32rem;
+  height: 32rem;
   margin: 0 auto;
-  top: 23%;
+  top: 32%;
 }
 .ellipse-container .greeting {
   position: relative;
-  top: 14rem;
+  top: 8rem;
   left: -5.5rem;
   right: 0;
   margin: 0 auto;
   text-transform: uppercase;
-  letter-spacing: 4.5rem;
-  font-size: 8rem;
+  letter-spacing: 4.3rem;
+  font-size: 3.6rem;
   font-weight: 400;
   opacity: .5;
 }
@@ -381,7 +383,7 @@ header {
   background-color: #0C383E;
   position: relative;
   top: -0.65rem;
-  left: -5.05rem;
+  left: -2.05rem;
 }
 .ellipse {
   border-radius: 50%;
@@ -401,6 +403,7 @@ header {
   background-image: url(../images/ellipses_dial.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 27rem;
   top: 0;
   left: 0;
   bottom: 0;
@@ -422,8 +425,8 @@ header {
   height: 2.5rem;
   border-width: 2px;
   border-color: #09383E;
-  top: 5rem;
-  right: 7rem;
+  top: 2.5rem;
+  right: 5rem;
 }
 .ellipse__orbit:before {
   content: '';
@@ -461,9 +464,6 @@ header {
 @media screen and (max-width: 768px) {
   .coorde, .greeting, .ellipse-container {
     visibility: hidden; } 
-  #logo {
-    transform: translateX(0px)
-  }
 }
 
 /* Ellipse - END */
