@@ -1209,6 +1209,20 @@ header {
     .contact-info li a {
       color: #000; }
 
+.contact-social {
+  margin-right: 15px;
+}
+
+.contact-social i {
+  font-size: 24px;
+  color: #000;
+  transition: color 0.2s ease-in-out;
+}
+
+.contact-social i:hover {
+  color: #F9CE00;
+}
+
 .form-control {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -1321,17 +1335,28 @@ input[type="text"] {
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase; }
-  #footer p a {
-    color: #000; }
-  #footer p:last-child {
-    margin-bottom: 0; }
-  #footer p.colorlib-social-icons a {
-    color: #000; }
-    #footer p.colorlib-social-icons a:hover, #footer p.colorlib-social-icons a:focus {
-      text-decoration: none !important; }
-  #footer p.colorlib-social-icons i {
-    font-size: 24px;
-    color: #000; }
+
+#footer p.colorlib-social-icons a:hover, #footer p.colorlib-social-icons a:focus {
+  text-decoration: none !important;
+}
+
+#footer p.colorlib-social-icons a:first-child {
+  margin-right: 10px;
+}
+
+#footer p.colorlib-social-icons a:last-child {
+  margin-left: 10px;
+}
+
+#footer p.colorlib-social-icons i {
+  font-size: 32px;
+  color: #000;
+  transition: color 0.4s ease-in-out;
+}
+#footer p.colorlib-social-icons i:hover {
+  color: #F9CE00;
+}
+
   #footer p .block {
     color: #1a1a1a;
     font-size: 14px; }
