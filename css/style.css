@@ -39,7 +39,6 @@ a {
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover {
-    text-decoration: underline;
     color: #F9CE00; }
   a:focus, a:active {
     outline: none; }
@@ -331,12 +330,19 @@ header {
         text-decoration: none; }
 
 .mySocial {
-  padding-left: 20px;
+  display: inline-block;
+  width: 100px;
+  padding-top: 5px;
+}
+
+.mySocial a {
+  text-decoration: none;
 }
 
 .mySocial i{
   color: #F9CE00;
   transition: color 0.2s ease-in-out;
+  font-size: 33px;
 }
 
 .mySocial i:hover{
@@ -377,6 +383,7 @@ header {
   height: 32rem;
   margin: 0 auto;
   top: 32%;
+  z-index: 9999;
 }
 .ellipse-container .greeting {
   position: relative;
@@ -483,6 +490,10 @@ header {
 }
 
 /* Ellipse - END */
+
+#header-center {
+  text-align: center;
+}
 
 #colorlib-hero {
   width: 100%;
