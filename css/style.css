@@ -413,6 +413,7 @@ header {
   position: absolute;
   top: 0;
   border-style: solid;
+  cursor: pointer;
 }
 .ellipse__outer--thin {
   width: 100%;
@@ -500,7 +501,7 @@ header {
   clear: both; }
   #colorlib-hero .hero-flex {
     width: 100%;
-    z-index: 0;
+    /* z-index: 0; */
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -512,7 +513,7 @@ header {
     -moz-flex-wrap: wrap; }
     #colorlib-hero .hero-flex .col-three-forth {
       width: 60%;
-      z-index: -1;
+      /* z-index: -1; */
       float: left;
       position: relative; }
     #colorlib-hero .hero-flex .col-one-forth {
