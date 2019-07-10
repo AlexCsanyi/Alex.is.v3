@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
       z-index: 3; }
   @media screen and (max-width: 768px) {
     #colorlib-page {
-      padding-top: 5em; } }
+      padding-top: 1em; } }
 
 .navbar {
   font-size: 18px;
@@ -1458,3 +1458,14 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+
+.my-social-icon {
+  font-size: 32px;
+  padding-right: 10px;
+  color: #000;
+  transition: color 0.4s ease-in-out;
+}
+
+.my-social-icon:hover {
+  color: #F9CE00;
+}
