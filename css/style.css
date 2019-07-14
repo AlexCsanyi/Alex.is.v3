@@ -581,7 +581,9 @@ header {
 
 #colorlib-hero {
   width: 100%;
-  clear: both; }
+  clear: both;
+  margin-bottom: 5%; 
+}
   #colorlib-hero .hero-flex {
     width: 100%;
     /* z-index: 0; */
