@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .logo {
   display: inline-block;
-  font-size: 22px;
+  
   margin-top: 10px;
   margin-left: 20px;
 }
@@ -628,12 +628,16 @@ header {
       width: 100%;
       margin-left: -5em; }
       #colorlib-hero .hero-flex .text-inner h2 {
-        font-size: 58px;
+        font-size: 2vw;
         font-weight: 700;
         letter-spacing: 2px; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .hero-flex .text-inner h2 {
             font-size: 24px; } }
+
+#colorlib-hero .hero-flex .text-inner p {
+  font-size: 1.2vw;
+}
       #colorlib-hero .hero-flex .text-inner .tag {
         display: block;
         letter-spacing: 7px;
